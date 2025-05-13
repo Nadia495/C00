@@ -1,6 +1,6 @@
 #!/bin/bash
 #Script pour vérifier si un fichier existe
-read -p "Entrez le nom du fichier : " filename
+read -p "Entrez le nom du fichier :" filename
 if [ -f "$filename" ]; then
     echo "Le fichier '$filename' existe."
 else
